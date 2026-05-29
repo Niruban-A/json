@@ -1,0 +1,162 @@
+{
+  "purchaseOrders": [
+    {
+      "id": 1001,
+      "poNumber": "PO-2026-001",
+      "supplierId": 101,
+      "supplierName": "ABC Traders",
+      "poDate": "2026-05-29",
+      "status": "Open",
+      "totalAmount": 25000,
+      "currency": "INR"
+    },
+    {
+      "id": 1002,
+      "poNumber": "PO-2026-002",
+      "supplierId": 102,
+      "supplierName": "XYZ Industries",
+      "poDate": "2026-05-30",
+      "status": "Approved",
+      "totalAmount": 15000,
+      "currency": "INR"
+    },
+    {
+      "id": 1003,
+      "poNumber": "PO-2026-003",
+      "supplierId": 103,
+      "supplierName": "Fashion Fabrics",
+      "poDate": "2026-06-01",
+      "status": "Pending",
+      "totalAmount": 42000,
+      "currency": "INR"
+    },
+    {
+      "id": 1004,
+      "poNumber": "PO-2026-004",
+      "supplierId": 104,
+      "supplierName": "Textile World",
+      "poDate": "2026-06-02",
+      "status": "Approved",
+      "totalAmount": 68000,
+      "currency": "INR"
+    },
+    {
+      "id": 1005,
+      "poNumber": "PO-2026-005",
+      "supplierId": 105,
+      "supplierName": "Global Threads",
+      "poDate": "2026-06-03",
+      "status": "Closed",
+      "totalAmount": 35000,
+      "currency": "INR"
+    }
+  ],
+
+  "purchaseOrderItems": [
+    {
+      "id": 1,
+      "poId": 1001,
+      "itemCode": "RM001",
+      "itemName": "Cotton Fabric",
+      "quantity": 100,
+      "unitPrice": 200,
+      "amount": 20000
+    },
+    {
+      "id": 2,
+      "poId": 1001,
+      "itemCode": "RM002",
+      "itemName": "Buttons",
+      "quantity": 500,
+      "unitPrice": 10,
+      "amount": 5000
+    },
+    {
+      "id": 3,
+      "poId": 1002,
+      "itemCode": "RM003",
+      "itemName": "Zippers",
+      "quantity": 300,
+      "unitPrice": 50,
+      "amount": 15000
+    },
+    {
+      "id": 4,
+      "poId": 1003,
+      "itemCode": "RM004",
+      "itemName": "Denim Fabric",
+      "quantity": 200,
+      "unitPrice": 150,
+      "amount": 30000
+    },
+    {
+      "id": 5,
+      "poId": 1003,
+      "itemCode": "RM005",
+      "itemName": "Thread Cones",
+      "quantity": 120,
+      "unitPrice": 100,
+      "amount": 12000
+    },
+    {
+      "id": 6,
+      "poId": 1004,
+      "itemCode": "RM006",
+      "itemName": "Polyester Fabric",
+      "quantity": 400,
+      "unitPrice": 120,
+      "amount": 48000
+    },
+    {
+      "id": 7,
+      "poId": 1004,
+      "itemCode": "RM007",
+      "itemName": "Labels",
+      "quantity": 10000,
+      "unitPrice": 2,
+      "amount": 20000
+    },
+    {
+      "id": 8,
+      "poId": 1005,
+      "itemCode": "RM008",
+      "itemName": "Packaging Boxes",
+      "quantity": 500,
+      "unitPrice": 70,
+      "amount": 35000
+    }
+  ],
+
+  "suppliers": [
+    {
+      "id": 101,
+      "name": "ABC Traders",
+      "city": "Chennai",
+      "phone": "9876543210"
+    },
+    {
+      "id": 102,
+      "name": "XYZ Industries",
+      "city": "Coimbatore",
+      "phone": "9876543211"
+    },
+    {
+      "id": 103,
+      "name": "Fashion Fabrics",
+      "city": "Tiruppur",
+      "phone": "9876543212"
+    },
+    {
+      "id": 104,
+      "name": "Textile World",
+      "city": "Erode",
+      "phone": "9876543213"
+    },
+    {
+      "id": 105,
+      "name": "Global Threads",
+      "city": "Karur",
+      "phone": "9876543214"
+    }
+  ]
+}
